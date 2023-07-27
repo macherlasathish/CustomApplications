@@ -1,0 +1,40 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "events": {
+        "onConversationCreate": {
+          "handler": "onConversationCreateHandler"
+        },
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        },
+        "onTicketUpdate": {
+          "handler": "onTicketUpdateHandler"
+        }
+      },
+      "functions": {
+        "onConversationCreateHandler": {
+          "timeout": 20
+        },
+        "onTicketCreateHandler": {
+          "timeout": 20
+        },
+        "onTicketUpdateHandler": {
+          "timeout": 20
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "14.0.0",
+    "fdk": "8.6.7"
+  },
+  "dependencies": {
+    "request": "2.85.0",
+    "base-64": "0.1.0"
+  },
+  "whitelisted-domains": [
+    "https://*.freshdesk.com"
+  ]
+}

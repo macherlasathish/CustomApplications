@@ -1,0 +1,20 @@
+{
+  "dev_portal_domain": {
+    "display_name": "Dev Portal Sub-domain",
+    "description": "Please enter freshdesk subdomain",
+    "type": "text",
+    "required": true
+  },
+  "dev_portal_key": {
+    "display_name": "Dev Portal API Key",
+    "description": "Please enter freshdesk api key",
+    "type": "text",
+    "required": true
+  },
+  "support_portal_key": {
+    "display_name": "Support Portal API Key",
+    "description": "Please enter freshdesk api key",
+    "type": "text",
+    "required": true
+  }
+}  

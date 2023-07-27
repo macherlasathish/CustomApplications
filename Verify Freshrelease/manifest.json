@@ -1,0 +1,20 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_background": {
+          "url": "index.html"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "14.17.3",
+    "fdk": "8.6.7"
+  },
+  "whitelisted-domains": [
+    "https://*.freshdesk.com",
+    "https://*.freshrelease.com"
+  ]
+}

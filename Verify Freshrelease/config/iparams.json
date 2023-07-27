@@ -1,0 +1,12 @@
+{
+   "freshreleaseAPIKey": {
+      "display_name": "Fresrelease API Key",
+      "description": "Please enter your api_key",
+      "type": "api_key",
+      "secure": true,
+      "required": true,
+      "type_attributes": {
+        "product": "freshdesk"
+      }
+    }
+}
