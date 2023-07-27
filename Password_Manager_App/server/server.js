@@ -9,7 +9,7 @@ if(nconf.get("ENV") == "production"){
     
 }
 else {
-    var masterKey = "cljjcs4Gq8T3k48DIvFzzRMLc2YbxYco4gVhxYvm";
+    var masterKey = "XXXXXXXXXXXXXXXXXXXXXXXX";
 }
 exports = {
     
